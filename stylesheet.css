@@ -2,6 +2,14 @@ body {
   font-family: Raleway;
 }
 
+h1{
+ font-size: 40px;
+}
+
+h2{
+  font-size: 25px; 
+}
+
 .topnav {
   background-color: rgb(131, 128, 115);
   overflow: hidden;
@@ -17,11 +25,43 @@ body {
 }
 
 .topnav a.social-media {
-  font-size: 23px
+  font-size: 21px
   
 }
 
 .topnav a:hover {
   background-color: rgb(223, 210, 210);
   color: black;
+}
+#heading {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#heading p {
+  font-size: 18px;
+}
+
+#projects {
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+#projects img {
+  width: 400px;
+}
+
+#projects p {
+  /* width: 350px; */
+  /* text-align: center; */
+
+}
+
+.project-card {
+  width: 450px;
+  height:410px;
+  display: inline-table;
+  text-align: center;
+  padding: 20px 10px;
 }
