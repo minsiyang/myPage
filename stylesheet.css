@@ -76,10 +76,6 @@ h2{
   margin-right:20px;
 }
 
-#projects img {
-  width: 350px;
-}
-
 #projects p {
   width: 280px;
   text-align: match-parent;
@@ -116,6 +112,22 @@ h2{
   text-align: center;
   padding: 15px 10px;
   margin: 15px 5px;
+}
+
+.project-card img {
+  width: 350px;
+  height: 200px;
+  overflow: scroll;
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+       transition: all 1s ease;
+}
+
+.project-card img:hover {
+  height: 250px;
 }
 
 #about {
