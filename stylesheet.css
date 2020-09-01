@@ -9,9 +9,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-width: 550px;
 }
 
 .container {
+  min-width: 375px;
   background-color: #f2f2f2;
   margin: 30px;
   padding: 2px 0 60px;
