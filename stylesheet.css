@@ -1,3 +1,27 @@
 body {
   font-family: Raleway;
 }
+
+.topnav {
+  background-color: rgb(131, 128, 115);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a.social-media {
+  font-size: 23px
+  
+}
+
+.topnav a:hover {
+  background-color: rgb(223, 210, 210);
+  color: black;
+}
