@@ -9,7 +9,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 550px;
+  min-width: 560px;
+  line-height: 25px;
 }
 
 .container {
@@ -23,6 +24,7 @@
 h1{
   font-size: 40px;
   color:rgb(80, 78, 73);
+  padding: 20px;
 }
 
 h2{
@@ -38,6 +40,7 @@ h2{
   background-color: rgb(131, 128, 115);
   overflow: hidden;
   padding-left: 50px;
+  width: 100%;
 }
 
 .topnav a {
@@ -133,7 +136,7 @@ h2{
 }
 
 #about {
-  margin: 60px 250px 0;
+  margin-top: 60px;
   text-align: justify;
 }
 
@@ -149,19 +152,24 @@ h2{
 
 #about p {
   font-size: 18px;
+  padding: 0 100px;
 }
 
 .contact {
-  margin: 100px;
+  margin: 50px 25px;
+  height: 80px;
   text-align: center;
+  padding: 10px;
+ 
 }
 
 .contact a {
+  display: inline-flexbox;
   background-color: rgb(131, 128, 115);
   font-size: 20px;
   font-weight:500;
   padding: 10px;
-  margin: 0 30px;
+  margin: 0 20px;
   color: #f2f2f2;
   text-decoration: none;
   border-radius: 5px;
@@ -198,9 +206,13 @@ footer {
   overflow: hidden;
   margin-top: 80px;
   height: 50px;
+  width: 100%;
 }
 
 footer p {
   padding: 15px;
 }
 
+footer a {
+  color: #f2f2f2;
+}
